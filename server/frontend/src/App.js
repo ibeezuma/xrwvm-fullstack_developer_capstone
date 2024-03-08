@@ -5,6 +5,7 @@ import Dealers from './components/Dealers/Dealers';
 import Register from './components/Register/Register';
 import { Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
     <Routes>
