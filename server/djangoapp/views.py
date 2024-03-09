@@ -1,5 +1,4 @@
 # Uncomment the required imports before adding the code
-import requests
 from .models import CarMake, CarModel
 from django.contrib.auth import login, authenticate
 import logging
