@@ -21,6 +21,8 @@ logger = logging.getLogger(__name__)
 
 
 # Create your views here.
+
+@csrf_exempt
 def get_cars(request):
     count = CarMake.objects.filter().count()
     print(count)
