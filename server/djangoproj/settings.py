@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-
 import os
 from pathlib import Path
 
@@ -33,8 +32,7 @@ ALLOWED_HOSTS = ['localhost',
 CSRF_TRUSTED_ORIGINS = [
     'https://ibeezuma-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': [],
+REST_FRAMEWORK = {'DEFAULT_AUTHENTICATION_CLASSES': [],
 }
 
 # Application definition
