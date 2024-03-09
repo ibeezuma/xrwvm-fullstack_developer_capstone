@@ -7,6 +7,7 @@ from django.views.decorators.csrf import csrf_exempt
 from .populate import initiate
 from django.contrib.auth.models import User
 from django.http import JsonResponse
+from .restapis import get_request, analyze_review_sentiments
 
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
